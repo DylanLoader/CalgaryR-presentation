@@ -16,6 +16,11 @@ output:
   revealjs: default
 ---
 
+```{r Install statements,eval=FALSE, include=FALSE}
+if(!(require("knitr"))){install.packages("knitr")}
+if(!(require("devtools"))){install.packages("devtools")}
+if(!(require("xaringan"))){devtools::install_github("yihui/xaringan")}
+```
 layout: true
 background-image: url("general-slide2.jpg")
 background-size: cover
